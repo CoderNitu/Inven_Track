@@ -13,23 +13,26 @@ A comprehensive inventory management system with real-time notifications, barcod
 - 📍 **Location Management**: Organize inventory by locations
 - 📋 **Reports**: Generate PDF and Excel reports
 
-<img width="1584" height="717" alt="Image" src="https://github.com/user-attachments/assets/e7591f6b-8a8d-4496-bdc8-e757413eb84f" />
 
-<img width="1565" height="731" alt="Image" src="https://github.com/user-attachments/assets/4381dfd3-e26e-4dc5-8a5f-1445141504aa" />
-
-<img width="1571" height="719" alt="Image" src="https://github.com/user-attachments/assets/2d669fea-9018-4b2a-b58b-1d957a115aab" />
-
-<img width="1586" height="716" alt="Image" src="https://github.com/user-attachments/assets/f329cea5-533b-4f4c-9a3f-490732fa7dd5" />
-
-<img width="1578" height="708" alt="Image" src="https://github.com/user-attachments/assets/34eb14f0-1169-4491-b8de-e5753b0f34ca" />
-
-<img width="1563" height="713" alt="Image" src="https://github.com/user-attachments/assets/a439d4ea-2a68-4586-8d45-e0a5dce27a3f" />
-
-<img width="1599" height="715" alt="Image" src="https://github.com/user-attachments/assets/6028d464-d452-42a4-aae1-0c5083c91b94" />
+<img width="1580" height="725" alt="Image" src="https://github.com/user-attachments/assets/3dc497ea-7855-4798-b0d6-2fd08292325f" />
 
 <img width="1599" height="718" alt="Image" src="https://github.com/user-attachments/assets/bbd78b81-32d0-4ef4-8549-3b92a8d458f6" />
 
-<img width="1580" height="725" alt="Image" src="https://github.com/user-attachments/assets/3dc497ea-7855-4798-b0d6-2fd08292325f" />
+<img width="1599" height="715" alt="Image" src="https://github.com/user-attachments/assets/6028d464-d452-42a4-aae1-0c5083c91b94" />
+
+<img width="1563" height="713" alt="Image" src="https://github.com/user-attachments/assets/a439d4ea-2a68-4586-8d45-e0a5dce27a3f" />
+
+<img width="1578" height="708" alt="Image" src="https://github.com/user-attachments/assets/34eb14f0-1169-4491-b8de-e5753b0f34ca" />
+
+<img width="1586" height="716" alt="Image" src="https://github.com/user-attachments/assets/f329cea5-533b-4f4c-9a3f-490732fa7dd5" />
+
+<img width="1571" height="719" alt="Image" src="https://github.com/user-attachments/assets/2d669fea-9018-4b2a-b58b-1d957a115aab" />
+
+<img width="1565" height="731" alt="Image" src="https://github.com/user-attachments/assets/4381dfd3-e26e-4dc5-8a5f-1445141504aa" />
+
+<img width="1584" height="717" alt="Image" src="https://github.com/user-attachments/assets/e7591f6b-8a8d-4496-bdc8-e757413eb84f" />
+
+
 
 ## Tech Stack
 
