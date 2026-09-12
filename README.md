@@ -35,46 +35,45 @@ InvenTrack brings these workflows into one application with searchable records, 
 - React dashboard with Bootstrap and Chart.js visualisations
 
 
-<img width="1580" height="725" alt="Image" src="https://github.com/user-attachments/assets/3dc497ea-7855-4798-b0d6-2fd08292325f" />
-
-<img width="1599" height="718" alt="Image" src="https://github.com/user-attachments/assets/bbd78b81-32d0-4ef4-8549-3b92a8d458f6" />
-
-<img width="1599" height="715" alt="Image" src="https://github.com/user-attachments/assets/6028d464-d452-42a4-aae1-0c5083c91b94" />
-
-<img width="1563" height="713" alt="Image" src="https://github.com/user-attachments/assets/a439d4ea-2a68-4586-8d45-e0a5dce27a3f" />
-
-<img width="1578" height="708" alt="Image" src="https://github.com/user-attachments/assets/34eb14f0-1169-4491-b8de-e5753b0f34ca" />
-
-<img width="1586" height="716" alt="Image" src="https://github.com/user-attachments/assets/f329cea5-533b-4f4c-9a3f-490732fa7dd5" />
-
-<img width="1571" height="719" alt="Image" src="https://github.com/user-attachments/assets/2d669fea-9018-4b2a-b58b-1d957a115aab" />
-
-<img width="1565" height="731" alt="Image" src="https://github.com/user-attachments/assets/4381dfd3-e26e-4dc5-8a5f-1445141504aa" />
-
-<img width="1584" height="717" alt="Image" src="https://github.com/user-attachments/assets/e7591f6b-8a8d-4496-bdc8-e757413eb84f" />
-
-
-
 ## Tech Stack
 
 ### Backend
+- Python
 - Django 5.2.5
 - Django REST Framework
-- Django Channels (WebSocket)
-- SQLite (development)
-- Celery (background tasks)
 
 ### Frontend
 - React 18
 - Bootstrap 5
 - Chart.js
-- QuaggaJS (barcode scanning)
 
-### External Services
-- Gmail SMTP (email notifications)
-- Twilio (SMS notifications)
+### Real-time communication
+- Django Channels
+- WebSockets
 
-## Quick Start
+### Background processing
+- Celery
+
+### Data and forecasting
+- pandas, NumPy, scikit-learn
+
+### Development database
+- SQLite
+
+### Notifications
+Gmail SMTP, Twilio
+
+### Barcode scanning
+- QuaggaJS
+
+
+## Forecasting approach
+
+The demand-prediction service converts outbound stock transactions into a daily demand series. Calendar attributes such as day of week, day of month, month, and weekend status are used as features for a Random Forest regressor.
+
+The application also estimates stockout dates from recent average consumption. These predictions are experimental decision-support features; they are not a replacement for human purchasing decisions or a production forecasting system.
+
+## Local setup
 
 ### 1. Clone the Repository
 ```bash
@@ -199,10 +198,30 @@ npm test       # Run tests
 4. Push to branch
 5. Create Pull Request
 
-## License
+## Screenshots
 
-This project is licensed under the MIT License.
+<img width="1580" height="725" alt="Image" src="https://github.com/user-attachments/assets/3dc497ea-7855-4798-b0d6-2fd08292325f" />
 
-## Support
+<img width="1599" height="718" alt="Image" src="https://github.com/user-attachments/assets/bbd78b81-32d0-4ef4-8549-3b92a8d458f6" />
 
-For support and questions, please open an issue on GitHub.
+<img width="1599" height="715" alt="Image" src="https://github.com/user-attachments/assets/6028d464-d452-42a4-aae1-0c5083c91b94" />
+
+<img width="1563" height="713" alt="Image" src="https://github.com/user-attachments/assets/a439d4ea-2a68-4586-8d45-e0a5dce27a3f" />
+
+<img width="1578" height="708" alt="Image" src="https://github.com/user-attachments/assets/34eb14f0-1169-4491-b8de-e5753b0f34ca" />
+
+<img width="1586" height="716" alt="Image" src="https://github.com/user-attachments/assets/f329cea5-533b-4f4c-9a3f-490732fa7dd5" />
+
+<img width="1571" height="719" alt="Image" src="https://github.com/user-attachments/assets/2d669fea-9018-4b2a-b58b-1d957a115aab" />
+
+<img width="1565" height="731" alt="Image" src="https://github.com/user-attachments/assets/4381dfd3-e26e-4dc5-8a5f-1445141504aa" />
+
+<img width="1584" height="717" alt="Image" src="https://github.com/user-attachments/assets/e7591f6b-8a8d-4496-bdc8-e757413eb84f" />
+
+## Current status and limitations
+
+This is a portfolio application and is not currently presented as production-ready software. Before production deployment, it needs stronger automated test coverage, environment-based security configuration, PostgreSQL and Redis configuration, forecasting validation, and deployment monitoring.
+
+## Author
+
+Developed by Nitu Alam.
