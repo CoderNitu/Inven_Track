@@ -8,15 +8,15 @@ The project combines a Django REST API with a React interface and adds real-time
 
 Inventory records are often distributed across spreadsheets and manually updated systems. This can make it difficult to answer basic operational questions:
 
-• What stock is currently available?
+- What stock is currently available?
 
-• Which products are approaching their reorder point?
+- Which products are approaching their reorder point?
 
-• Where and why did inventory quantities change?
+- Where and why did inventory quantities change?
 
-• Which supplier is associated with a product?
+- Which supplier is associated with a product?
 
-• Which products may run out based on recent demand?
+- Which products may run out based on recent demand?
 
 InvenTrack brings these workflows into one application with searchable records, transaction history, reports, and automated alerts.
 
