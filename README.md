@@ -22,14 +22,17 @@ InvenTrack brings these workflows into one application with searchable records, 
 
 ## Features
 
-- 📦 **Product Management**: Add, edit, and track products with barcode/QR code support
-- 📊 **Inventory Tracking**: Real-time stock levels and transaction history
-- 🔔 **Smart Notifications**: Email and SMS alerts for low stock and critical situations
-- 📱 **Barcode/QR Scanner**: Mobile-friendly scanning interface
-- 📈 **Analytics**: ML-powered demand forecasting and stockout predictions
-- 🏪 **Supplier Management**: Track supplier performance and manage relationships
-- 📍 **Location Management**: Organize inventory by locations
-- 📋 **Reports**: Generate PDF and Excel reports
+- Product, category, supplier, and location management
+- Current stock and available-quantity tracking
+- Inbound and outbound stock transaction history
+- Barcode and QR-code scanning from a mobile-friendly interface
+- Low-stock and critical-stock notifications
+- Email and optional Twilio SMS alerts
+- Real-time updates using Django Channels and WebSockets
+- PDF and Excel report generation
+- Demand forecasting using historical stock movements
+- Estimated stockout dates and reorder recommendations
+- React dashboard with Bootstrap and Chart.js visualisations
 
 
 <img width="1580" height="725" alt="Image" src="https://github.com/user-attachments/assets/3dc497ea-7855-4798-b0d6-2fd08292325f" />
