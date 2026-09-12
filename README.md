@@ -37,33 +37,33 @@ InvenTrack brings these workflows into one application with searchable records, 
 
 ## Tech Stack
 
-### Backend
+## Backend
 - Python
 - Django 5.2.5
 - Django REST Framework
 
-### Frontend
+## Frontend
 - React 18
 - Bootstrap 5
 - Chart.js
 
-### Real-time communication
+## Real-time communication
 - Django Channels
 - WebSockets
 
-### Background processing
+## Background processing
 - Celery
 
-### Data and forecasting
+## Data and forecasting
 - pandas, NumPy, scikit-learn
 
-### Development database
+## Development database
 - SQLite
 
-### Notifications
+## Notifications
 Gmail SMTP, Twilio
 
-### Barcode scanning
+## Barcode scanning
 - QuaggaJS
 
 
@@ -224,4 +224,4 @@ This is a portfolio application and is not currently presented as production-rea
 
 ## Author
 
-Developed by Nitu Alam.
+Developed by CoderNitu.
