@@ -1,6 +1,24 @@
-# Smart Inventory Management System
+# InvenTrack — Smart Inventory and Supply Chain Tracker
 
-A comprehensive inventory management system with real-time notifications, barcode scanning, and analytics.
+InvenTrack is a full-stack inventory management application built to help small and growing businesses track stock, manage suppliers, monitor inventory movements, and identify products that may require reordering.
+
+The project combines a Django REST API with a React interface and adds real-time updates, barcode scanning, operational reports, notifications, and experimental demand forecasting.
+
+## Business problem
+
+Inventory records are often distributed across spreadsheets and manually updated systems. This can make it difficult to answer basic operational questions:
+
+• What stock is currently available?
+
+• Which products are approaching their reorder point?
+
+• Where and why did inventory quantities change?
+
+• Which supplier is associated with a product?
+
+• Which products may run out based on recent demand?
+
+InvenTrack brings these workflows into one application with searchable records, transaction history, reports, and automated alerts.
 
 ## Features
 
